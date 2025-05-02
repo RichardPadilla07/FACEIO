@@ -1,14 +1,60 @@
 body {
-    font-family: sans-serif;
-    text-align: center;
-    padding: 50px;
-    background: #f7f7f7;
-  }
-  
-  button {
-    padding: 10px 20px;
-    margin: 10px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/0f7c9590063793.5e0c23465edc8.gif'); /* Cambia esta URL por la tuya */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-container {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 40px;
+  border-radius: 12px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+  color: white;
+}
+
+.login-container h2 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0066cc;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #0052a3;
+}
+
+.secondary-btn {
+  background-color: #ffffff33;
+}
+
+.secondary-btn:hover {
+  background-color: #ffffff55;
+}
+
+.footer {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #ddd;
+}

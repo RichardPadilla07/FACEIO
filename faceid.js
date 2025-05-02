@@ -14,19 +14,6 @@ document.getElementById("btnRegister").addEventListener("click", () => {
     alert("✅ Usuario registrado:\n" + JSON.stringify(userInfo.payload));
   }).catch(err => {
     console.error("Error de registro:", err);
-    alert("❌ No se pudo registrar el rostro.");
-  });
-});
-
-// Login
-document.getElementById("btnLogin").addEventListener("click", () => {
-  faceio.authenticate({
-    locale: "es"
-  }).then(userData => {
-    console.log("Login exitoso:", userData);
-    alert("🔓 Bienvenido, " + userData.payload.nombre);
-  }).catch(err => {
-    console.error("Error de autenticación:", err);
-    alert("❌ No se pudo autenticar.");
+    alert("❌ No se pudo registrar el rostro.\nCódigo de error: " + err.code + "\nMensaje: " + err.message);
   });
 });

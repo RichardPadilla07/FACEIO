@@ -7,19 +7,20 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="login-container">
     <h2>LOGIN CON FACEIO</h2>
-    <button id="loginBtn">Iniciar Sesión con Camara</button>
-    <button id="registerBtn" class="secondary-btn">Registrarse con Camara</button>
+
+    <button onclick="enrollNewUser()">Enroll New User</button>
+    <button onclick="authenticateUser()">Authenticate User</button>
+    <div id="faceio-modal"></div>
+    <script src="https://cdn.faceio.net/fio.js"></script>
+    <script src="faceio.js"></script>
+
+
     <div class="footer">
       &copy; 2025 ICastillo, ASanchez, RPadilla
     </div>
   </div>
-
-  <!-- SDK de FACEIO -->
-  <div id="faceio-modal"></div>
-  <script src="https://cdn.faceio.net/fio.js"></script>
-  <!-- Archivo con la lógica -->
-  <script src="faceio.js"></script>
 </body>
 </html>

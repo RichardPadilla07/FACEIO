@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  h1 {
+    margin-bottom: 15px;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #searchInput {
+    padding: 10px;
+    width: 50%;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  #searchBtn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  #searchBtn:hover {
+    background-color: #444;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 30px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 2px solid #000;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .card p {
+    margin: 5px 10px;
+    font-weight: bold;
+  }
+  
+  .price {
+    color: #00a859;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  

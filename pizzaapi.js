@@ -2,7 +2,7 @@ const url = 'https://pizza-and-desserts.p.rapidapi.com/pizzas';
 const options = {
 	method: 'GET',
 	headers: {
-		'x-rapidapi-key': //'e795958aacmsh88bfc10d6223c70p1b3257jsn39b0d84761d1',
+		'x-rapidapi-key': 'e795958aacmsh88bfc10d6223c70p1b3257jsn39b0d84761d1',
 		'x-rapidapi-host': 'pizza-and-desserts.p.rapidapi.com'
 	}
 };

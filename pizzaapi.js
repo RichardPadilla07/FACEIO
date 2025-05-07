@@ -7,7 +7,6 @@ const options = {
 	}
 };
 
-
 const cardContainer = document.getElementById("cardContainer");
 const searchInput = document.getElementById("searchInput");
 const searchBtn = document.getElementById("searchBtn");
@@ -43,9 +42,6 @@ function renderCards(data) {
       <p class="price">Precio: $${pizza.price}</p>
       <p>${pizza.description}</p>
     `;
-	
-	//<p>Cantidad disponible: ${pizza.quantity}</p> En caso de que se necesite mostrar la cantidad disponible de cada pizza, se puede descomentar esta línea y meterla dentro del arreglo de arriba
-
     cardContainer.appendChild(card);
   });
 }

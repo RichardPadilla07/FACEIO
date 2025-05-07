@@ -1,4 +1,4 @@
-const faceio = new faceIO("fioa6c08");
+const faceio = new faceIO("fioa9578");
 
 function enrollNewUser(){
   faceio.enroll({

@@ -2,7 +2,7 @@ const url = 'https://pizza-and-desserts.p.rapidapi.com/pizzas';
 const options = {
 	method: 'GET',
 	headers: {
-		'x-rapidapi-key': 'e795958aacmsh88bfc10d6223c70p1b3257jsn39b0d84761d1',
+		'x-rapidapi-key': 'a568007d13msh7ecfe4809cf6759p173258jsn4140acccbb31',
 		'x-rapidapi-host': 'pizza-and-desserts.p.rapidapi.com'
 	}
 };
@@ -55,6 +55,10 @@ function handleSearch() {
     const filtered = pizzas.filter(pizza =>
       pizza.description.toLowerCase().includes(query)
     ).slice(0, 10);
+
+    if (filtered.length === 0) {
+      alert("No se encontró ninguna pizza con el ingrediente solicitado");
+    }
 
     renderCards(filtered);
   }

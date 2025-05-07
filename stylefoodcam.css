@@ -101,3 +101,10 @@ h1 {
   margin-bottom: 10px;
   font-size: 14px;
 }
+
+.no-result {
+  text-align: center;
+  font-size: 1.2rem;
+  color: red;
+  margin-top: 20px;
+}

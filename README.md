@@ -1,5 +1,5 @@
 # PRUEBA COMPLEMENTARIA #1 DEL PRIMER BIMESTRE
-Url del despliegue ==> https://faceio-web.netlify.app/ 
+Url del despliegue ==> https://facei-web.netlify.app/
 
 ☑️LOGIN UTILIZANDO LA API DE FACEIO
 
